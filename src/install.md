@@ -20,7 +20,7 @@ so you can download one instead of building.
 
 To build from a clone, use the Makefile.
 
-```sh
+```sh,one-version
 git clone https://github.com/samuel-stidham/safetybox.git
 cd safetybox
 make install
@@ -41,7 +41,7 @@ compiler.
 
 ## Confirm the install
 
-```sh
+```sh,one-version
 safetybox --version
 sanctuary --version
 ```

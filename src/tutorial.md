@@ -14,8 +14,8 @@ If you want the terse version of any command, the
 Install the Go version, the Rust version, or both. The
 [install page](install.md) has the commands for each.
 
-This tutorial writes every command with `safetybox`. Each one works
-unchanged with `sanctuary`.
+Each command in this tutorial has a tab for each version. The two
+differ in the command name alone.
 
 Confirm the install and read the version.
 

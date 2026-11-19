@@ -33,8 +33,14 @@ Change the page here in step with the Go release.
 A push to `main` builds the site and publishes it to GitHub Pages. A
 pull request builds the site and publishes nothing.
 
-Every example is written with `safetybox`. Keep it that way. A page
-names `sanctuary` only where the two versions differ.
+Write every example with `safetybox`, in a `sh` or `fish` block.
+`theme/command-tabs.js` adds a tab for each version to such a block
+and swaps the command name. It leaves paths, variables, and URLs
+alone.
+
+Mark a block that must not get tabs with `one-version`, as in
+` ```sh,one-version `. The install page uses it for steps that belong
+to one version.
 
 ## License
 

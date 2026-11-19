@@ -8,8 +8,8 @@ in it.
 Install the Go version, the Rust version, or both. The
 [install page](install.md) has the commands for each.
 
-The examples below use `safetybox`. Each one works unchanged with
-`sanctuary`.
+Each example below has a tab for each version. The two differ in the
+command name alone.
 
 ## Create your identity and vault
 

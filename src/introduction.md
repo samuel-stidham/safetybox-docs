@@ -24,12 +24,22 @@ documentation covers both.
 
 ## How to read the examples
 
-Every example is written with `safetybox`. Each one works unchanged
-with `sanctuary`: replace the command name and nothing else. The
-verbs, flags, output, and exit codes are the same.
+Every shell example has two tabs, **safetybox (Go)** and
+**sanctuary (Rust)**. Pick the version you installed. The choice
+applies to every example on every page, and your browser remembers it.
 
-The few places where the two differ are listed on the
-[two versions](two-versions.md) page.
+The two tabs differ in the command name and nothing else. The verbs,
+flags, output, and exit codes are the same. Paths and variables keep
+the name `safetybox` under both versions, such as
+`~/.config/safetybox/identity.age` and `SAFETYBOX_VAULT`.
+
+The prose says safetybox for the product. It means both versions
+unless a sentence names one.
+
+The two are not identical in every detail. The
+[two versions](two-versions.md) page lists every difference between
+the repositories and between the commands. Read the short section on
+passphrases there before you use both on one vault.
 
 ## Where to start
 
