@@ -1,0 +1,16 @@
+[book]
+title = "SafetyBox"
+description = "Documentation for SafetyBox, the Go version, and sanctuary, the Rust version."
+authors = ["Samuel Stidham"]
+language = "en"
+src = "src"
+
+[build]
+build-dir = "book"
+
+[output.html]
+site-url = "/safetybox-docs/"
+git-repository-url = "https://github.com/samuel-stidham/safetybox-docs"
+edit-url-template = "https://github.com/samuel-stidham/safetybox-docs/edit/main/{path}"
+default-theme = "light"
+preferred-dark-theme = "navy"
